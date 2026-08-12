@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    >
+
+    <title>❤️</title>
+
+    <!-- Czcionka -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="styl.css">
+</head>
+
+<body>
+
+    <!-- ========================= -->
+    <!-- SERDUSZKA W TLE -->
+    <!-- ========================= -->
+
+    <div class="hearts">
+
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+
+    </div>
+
+
+    <!-- ========================= -->
+    <!-- EKRAN STARTOWY -->
+    <!-- ========================= -->
+
+    <section id="startScreen" class="screen active">
+
+        <img
+            src="koperta.png"
+            alt="Koperta"
+            id="envelope"
+            class="envelope"
+        >
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- EKRAN Z PYTANIEM -->
+    <!-- ========================= -->
+
+    <section id="questionScreen" class="screen">
+
+        <img
+            src="cat-flowers-Photoroom.png"
+            alt="Kot"
+            class="cat-image"
+        >
+
+        <h1>
+            Czy mogę zostać<br>
+            twoim chłopakiem?
+        </h1>
+
+        <div class="buttons">
+
+            <button
+                id="yesButton"
+                class="answer-button yes"
+            >
+                TAK
+            </button>
+
+            <button
+                id="noButton"
+                class="answer-button no"
+            >
+                NIE
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- EKRAN TAK -->
+    <!-- ========================= -->
+
+    <section id="yesScreen" class="screen">
+
+        <img
+            src="TAK.gif"
+            alt="❤️"
+            class="result-gif"
+        >
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- EKRAN NIE -->
+    <!-- ========================= -->
+
+    <section id="noScreen" class="screen">
+
+        <img
+            src="200.gif"
+            alt="Smutny kot"
+            class="sad-cat"
+        >
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- MUZYKA -->
+    <!-- ========================= -->
+
+    <audio
+        id="yesMusic"
+        src="Sunshine, Lollipops And Rainbows.mp3"
+    ></audio>
+
+    <audio
+        id="noMusic"
+        src="alone at the edge of a universe.mp3"
+    ></audio>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="skrypt.js"></script>
+
+</body>
+
+</html>
